@@ -1,0 +1,1 @@
+SELECT * FROM {{ref('fact_nb_orders')}} WHERE tot_price < 0

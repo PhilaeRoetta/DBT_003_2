@@ -1,0 +1,12 @@
+models:
+  - name: stg_order
+    description: stage for orders
+    columns:
+      - name: O_TOTALPRICE
+        tests:
+          - gen_amount_positive
+  - name: fact_nb_orders
+    columns:
+      - name: tot_price
+        tests:
+          - gen_amount_positive

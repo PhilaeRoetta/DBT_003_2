@@ -1,0 +1,11 @@
+sources:
+  - name: DBT_DBT_003_2
+    database: DBT
+    schema: DBT_003_2
+    tables:
+    - name: all_orders
+      identifier: ORDERS
+      description: "{{doc('tsts_orders')}}"
+    - name: all_customers
+      identifier: CUSTOMERS
+      description: all customers!!
