@@ -43,5 +43,10 @@ models:
     core:
       description: output for dim tables
       +materialized: view
+      stg_customer:
+        +materialized: ephemeral
+      stg_incr: 
+        +materialized: incremental
+        unique_key: A
 
 

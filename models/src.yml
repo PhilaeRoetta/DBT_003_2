@@ -9,3 +9,7 @@ sources:
     - name: all_customers
       identifier: CUSTOMERS
       description: all customers!!
+    - name: all_incr
+      identifier: tbl_incr
+    - name: all_mockorders
+      identifier: mock_orders
